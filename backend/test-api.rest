@@ -1,0 +1,16 @@
+###
+GET http://localhost:5000/books
+
+###
+GET http://localhost:5000/members
+
+###
+POST http://localhost:5000/book/borrow/b5528ef2-d927-4de6-8c33-4a86f6dce3e9/fe9190ff-beda-449d-b3e8-91d48d27ac14
+###
+POST http://localhost:5000/book/return/b5528ef2-d927-4de6-8c33-4a86f6dce3e9/22b120ca-0713-43b7-bbeb-7d769bcd0b22
+
+###
+GET http://localhost:5000/history/book/b5528ef2-d927-4de6-8c33-4a86f6dce3e9
+
+###
+GET http://localhost:5000/history/member/fe9190ff-beda-449d-b3e8-91d48d27ac14
